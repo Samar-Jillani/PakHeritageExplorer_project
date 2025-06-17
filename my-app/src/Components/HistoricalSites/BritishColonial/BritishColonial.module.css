@@ -1,0 +1,14 @@
+.main{
+    margin-top: 150px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 45px;
+}
+.main h2{
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+}

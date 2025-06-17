@@ -1,0 +1,54 @@
+.admin-panel {
+    max-width: 800px;
+    margin: 100px auto 50px auto;
+    padding: 20px;
+  }
+  
+  .admin-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .admin-loading,
+  .admin-error,
+  .admin-empty {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .admin-error {
+    color: red;
+  }
+  
+  .admin-card {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .admin-description {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .admin-meta {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  

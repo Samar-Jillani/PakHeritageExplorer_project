@@ -1,0 +1,52 @@
+.header_wrapper{
+    margin-top: 140px;
+    padding: 0 !important;
+    margin-top: 160px;
+}
+
+.imageContainer{
+    height: 490px;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 60px;
+    background: url(./../../Components/Badshahimosque.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+    animation: anim_change_img 15s infinite linear alternate;
+    display: flex;
+}
+
+.imageContainer h2{
+    font-size: 40px;
+}
+
+.imageContainer ::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    z-index: -1;
+    content: '';
+}
+
+@keyframes anim_change_img{
+    0%{
+    background: url(./../../Components/Badshahimosque.jpg);
+    }
+    50%{
+    background: url(./../../Components/MohenjoDaro.jpg);
+    }
+}
+
+.imageContainer{
+    font-size: 40px;
+    line-height: 70px;
+    color: white;
+}
+
